@@ -14,4 +14,4 @@ jobs:
         server: jnff.in
         username:  jnff1@jnff.in
         password: ${{ secrets.ftp_password }}
-        
+        # added folder
