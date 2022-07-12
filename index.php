@@ -3,57 +3,58 @@ include "./ejnff/db.php";
 ?>
 
 <style>
-  @media(max-width:576px){
-.swiper-wrapper{
-height: 170px!important;
-}
- .banner-style2 .bg-overlay .image{
-background-size: contain!important;
-}
-}
-  
-  
-      .countdown-container {
-            width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            /* background: linear-gradient(to top, #1a1f3f 0, #b21e8e 100%); */
-            background-image: linear-gradient(315deg, #ef0000 0%, #4e063a 50% , #ef0000 100%);
-        }
-        
-        .big-text {
-            font-weight: bolder;
-            font-size: 3rem;
-            line-height: 1;
-            margin: 1rem 2rem;
-            border-radius: 5px;
-            /* background-color: rgba(107, 105, 105, 0.459); */
-        }
-        
-        .countdown-el {
-            text-align: center;
-            margin: 3px 20px;
-            /* background: rgb(33 39 57 / 70%); */
-            background: rgb(145 4 34);
-        }
-        
-        .countdown-el span {
-            font-size: 1.2rem;
+    @media(max-width:576px) {
+        .swiper-wrapper {
+            height: 170px !important;
         }
 
-        .counter-text{
-            font-size: 20px;
-            text-align: center;
+        .banner-style2 .bg-overlay .image {
+            background-size: contain !important;
         }
+    }
 
 
-        .vc_custom_1558421890500{
-            padding-top: 10px !important;
-    padding-bottom: 0px !important;
-        }
+    .countdown-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        /* background: linear-gradient(to top, #1a1f3f 0, #b21e8e 100%); */
+        background-image: linear-gradient(315deg, #ef0000 0%, #4e063a 50%, #ef0000 100%);
+    }
+
+    .big-text {
+        font-weight: bolder;
+        font-size: 3rem;
+        line-height: 1;
+        margin: 1rem 2rem;
+        border-radius: 5px;
+        /* background-color: rgba(107, 105, 105, 0.459); */
+    }
+
+    .countdown-el {
+        text-align: center;
+        margin: 3px 20px;
+        /* background: rgb(33 39 57 / 70%); */
+        background: rgb(145 4 34);
+    }
+
+    .countdown-el span {
+        font-size: 1.2rem;
+    }
+
+    .counter-text {
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+    .vc_custom_1558421890500 {
+        padding-top: 10px !important;
+        padding-bottom: 0px !important;
+    }
 </style>
 
 <div class="header-space"></div>
@@ -93,10 +94,10 @@ background-size: contain!important;
                                         <div class="banner-item banner-item-5cc2c9f241de7 tal">
 
                                             <div class="bg-overlay">
-                                                <div class="image" style='background-image: url("ejnff/slider/<?php echo $slider11['image'];?>")'></div>
+                                                <div class="image" style='background-image: url("ejnff/slider/<?php echo $slider11['image']; ?>")'></div>
                                                 <div class="clippy-image container">
                                                     <div>
-                                                        <div style='background-image: url("ejnff/slider/<?php echo $slider11['image'];?>");'></div>
+                                                        <div style='background-image: url("ejnff/slider/<?php echo $slider11['image']; ?>");'></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -104,7 +105,7 @@ background-size: contain!important;
                                             <div class="container">
                                                 <div class="row full-height align-items-center" style="">
                                                     <div class="col">
-                                                       
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -118,35 +119,35 @@ background-size: contain!important;
 
                             </div>
                         </section>
-<!-- counter -->
-<h1 class="counter-text">Event Count</h1>
+                        <!-- counter -->
+                        <h1 class="counter-text">Event Count</h1>
 
-<div class="countdown-container">
-    <div class="countdown-el days-c">
-        <p class="big-text" id="days">0</p>
-          <span>Days</span>
-    </div>
-    <div class="countdown-el hour-c">
-        <p class="big-text" id="hours">0</p>
-          <span>Hours</span>
-    </div>
-    <div class="countdown-el mins-c">
-        <p class="big-text" id="mins">0</p>
-          <span>Mins</span>
-    </div>
-    <div class="countdown-el seconds-c">
-        <p class="big-text" id="seconds">0</p>
-            <span>Seconds</span>
-    </div>
-</div>
-        <!-- //counter -->
+                        <div class="countdown-container">
+                            <div class="countdown-el days-c">
+                                <p class="big-text" id="days">0</p>
+                                <span>Days</span>
+                            </div>
+                            <div class="countdown-el hour-c">
+                                <p class="big-text" id="hours">0</p>
+                                <span>Hours</span>
+                            </div>
+                            <div class="countdown-el mins-c">
+                                <p class="big-text" id="mins">0</p>
+                                <span>Mins</span>
+                            </div>
+                            <div class="countdown-el seconds-c">
+                                <p class="big-text" id="seconds">0</p>
+                                <span>Seconds</span>
+                            </div>
+                        </div>
+                        <!-- //counter -->
                     </div>
                 </div>
             </div>
         </div>
 
 
-        
+
 
         <div class="vc_row-full-width vc_clearfix"></div>
         <div class="vc_row wpb_row vc_row-fluid vc_custom_1558421890500 vc_row-5cc2de9e1c856">
@@ -190,8 +191,8 @@ background-size: contain!important;
         </div>
 
 
-       <!--video management check in local-->
-        
+        <!--video management check in local-->
+
 
 
 
@@ -207,11 +208,11 @@ background-size: contain!important;
                             <div class="next base-icon-next-1" data-magic-cursor="link-small"></div>
                             <div class="swiper-container" data-magic-cursor="link-w-text" data-magic-cursor-text="Drag">
                                 <div class="swiper-wrapper">
- 									
-                                  
 
-                                   <?php
-									
+
+
+                                    <?php
+
                                     $patron1 = mysqli_query($conn, "SELECT * FROM `event_management`");
                                     while ($patron11 = mysqli_fetch_assoc($patron1)) {
                                     ?>
@@ -222,8 +223,9 @@ background-size: contain!important;
                                                 <div class="img" style='background-size: cover!important;background: url("../ejnff/event_management/<?php echo $patron11['image']; ?>");'>
 
                                                 </div>
-                                                <!-- <img src="<?php //echo $patron11['image'];?>" alt=""> -->
-<!--<div class="social-links">
+                                                <!-- <img src="<?php //echo $patron11['image'];
+                                                                ?>" alt=""> -->
+                                                <!--<div class="social-links">
 <a href="#" target="_self"><i class="fab fa-facebook-f"></i></a>
 <a href="#" target="_self"><i class="fab fa-instagram"></i></a>
 <a href="#" target="_self"><i class="fab fa-twitter"></i></a></div>-->
@@ -405,7 +407,7 @@ background-size: contain!important;
                 <div class="vc_column-inner ">
                     <div class="wpb_wrapper">
 
-                    <div class="heading-block heading-5cc2e3171ed13 tal h-h2 with-dots vc_custom_1556277774696">
+                        <div class="heading-block heading-5cc2e3171ed13 tal h-h2 with-dots vc_custom_1556277774696">
                             <h2 class="h">Our <span>Sponsors</span></h2>
                         </div>
 
@@ -439,48 +441,48 @@ background-size: contain!important;
 
 
 <script>
-        const daysEl = document.getElementById("days");
-        const hoursEl = document.getElementById("hours");
-        const minsEl = document.getElementById("mins");
-        const secondsEl = document.getElementById("seconds");
+    const daysEl = document.getElementById("days");
+    const hoursEl = document.getElementById("hours");
+    const minsEl = document.getElementById("mins");
+    const secondsEl = document.getElementById("seconds");
 
-        const Brithdays = "21 July 2022";
+    const Brithdays = "21 July 2022";
 
-        function countdown() {
-            const BrithdaysDate = new Date(Brithdays);
-            const currentDate = new Date();
+    function countdown() {
+        const BrithdaysDate = new Date(Brithdays);
+        const currentDate = new Date();
 
-            const totalSeconds = (BrithdaysDate - currentDate) / 1000;
+        const totalSeconds = (BrithdaysDate - currentDate) / 1000;
 
-            const days = Math.floor(totalSeconds / 3600 / 24);
-            const hours = Math.floor(totalSeconds / 3600) % 24;
-            const mins = Math.floor(totalSeconds / 60) % 60;
-            const seconds = Math.floor(totalSeconds) % 60;
+        const days = Math.floor(totalSeconds / 3600 / 24);
+        const hours = Math.floor(totalSeconds / 3600) % 24;
+        const mins = Math.floor(totalSeconds / 60) % 60;
+        const seconds = Math.floor(totalSeconds) % 60;
 
-            daysEl.innerHTML = days;
-            hoursEl.innerHTML = formatTime(hours);
-            minsEl.innerHTML = formatTime(mins);
-            secondsEl.innerHTML = formatTime(seconds);
-        }
+        daysEl.innerHTML = days;
+        hoursEl.innerHTML = formatTime(hours);
+        minsEl.innerHTML = formatTime(mins);
+        secondsEl.innerHTML = formatTime(seconds);
+    }
 
-        function formatTime(time) {
-            return time < 10 ? "0" + time : time;
-        }
-        countdown();
-        setInterval(countdown, 1000);
-    </script>
+    function formatTime(time) {
+        return time < 10 ? "0" + time : time;
+    }
+    countdown();
+    setInterval(countdown, 1000);
+</script>
 
- 
 
- 
+
+
 <?php include "./include/footer.php" ?>
- <script>
-        $(document).ready(function() {
-            const xhttp = new XMLHttpRequest();
-            xhttp.onload = function() {
-               // document.getElementById("patron").innerHTML = this.responseText;
-            }
-            xhttp.open("GET", "ajaxpatron.php", true);
-            xhttp.send();
-        });
-    </script>
+<script>
+    $(document).ready(function() {
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function() {
+            // document.getElementById("patron").innerHTML = this.responseText;
+        }
+        xhttp.open("GET", "ajaxpatron.php", true);
+        xhttp.send();
+    });
+</script>
